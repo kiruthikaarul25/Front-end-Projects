@@ -1,1 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Calculator</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJsAAACUCAMAAACz6atrAAAAaVBMVEUAAAD///9UVFTx8fGXl5dYWFjn5+cqKioZGRn5+fnr6+thYWFISEgeHh719fVRUVElJSV1dXU6Ojrh4eHX19c/Pz/Q0NBsbGxmZmaenp4ODg6mpqbAwMCxsbEUFBS5ubkzMzOOjo6Dg4ORp6z5AAAEvklEQVR4nO2c6ZaqMAyACygKIqIgLqOCvv9D3hmlCzRA7TJ45ia/nJ52+EhpmqZpiSfLify+nAAOIheV5wnYzqUSmz8BGiG+Cls4CRohoQLbbCK2mQLbaiK2lQLbfCK2uQLbNEMBGgzIhmzI9gbberWd2ZTtam2LbVtEUi0ziYqtHbarZbCXXG2wfTlB87wvc7aNIzTP2xizXZyxXUzZdrkztnxnyOYHztgC35BtZdt8cIlWyIZsyIZsyIZs/wlbEjtjixNDtqxwxlZkhmzOXHLJKddgOztjOxuzuRoNUTfOp7UGXKUO0NJj9zF6a+fzKY8DmxLnJzkWrx0P2ftze+LvoUf8wVgNsiEbsiEbsiEbsiHbB7Bl1ziudoNVpmJbPJerQf2JbNWrzmWozkRs5yaiHzvoVVO2NWVLBiohG7IhG7IhmwW227KRW8bYeFnvw1gVUKyw7a95yIRWillJXsE6rMVmsuRVJ5VAh20xGigPu095oo3u8wfmeQ5AbmtXSrmDVNIjinYzR/sLcq/uFJql7ezJ99k2emx7hfQI432ZpcLeR76Q2JYKn0JeG7KRzWgIP5JzsgiZjyvu0G6hY0O2I5rLITRCDmPNHp0GWrb3nC0ayXbU9s55WZ/x5c0gkZuZzlnLj5uzuHzefIpsyIZsyGaH7dZsQcfgDui0bNTTLO2jmbM1h1ogL3xyNuIXaZo7OYpkIxadOBgHtthcCbIhG7IhG7Ih25RsS+Bs3Wew1aeyqOBoiUW2rArDsu48+fJdlgGVqSQvB77qFK97dKnJtn8GCKNWUGr+dM+7QVvxfWjgunUofn4J0ouUB2rA1pxWjIQgaNKsHPp3oO/0H4qhQ/8ZzYugN9JjY3nbXHPslGDay1bRKhF3Rg9NoDG3xrZg8XiquYRFJaNxNh4OntMYaCxHYXX7lD/mFQgVzlaq9GlNtcZaxdbO7ZKEx3x/8pk3PJYrZV5zoTFOltMu5FcXQH1dGyLAeceE/46GjOFrJDPNHoVmUJqEtu09criAv346bFg3X2FQ3ps/DrxZZNOGkLbmGNroOpXPWcItFxG8iDSYs+Rs/PQA14RkK3yxPW9kMp92Dz7LWf79It4N0jeTGM317a2W4A00UWu915OY+SHi9tE7WhNHaP/NKWZsvsim/rFtBWUPXOpi1qet0QAbAkAE8zOgNTM26T4ZNa9R1NpgBMqqDYlUuvWgqDUTNvmGICXNCVpLaYz4tgcz+7TZBK0FgibG4CCTey/DvATsry6bYAWCzULo3eFu5U4Rn96bBAj59ipNNl/Q2rFlhAd8pJbWmPF40BLp4zP2LV/P2HHWgWi+MMmxb42wnfLu8svYJw8aNfkKPrmQ9cJN7o2psuy6voZrmZj1IF1meUE/G3ujlNu1G9O4lIxjtgYUF6M030bqGpmttfnFlNm9EkaXrY7bWvuR16IhHDD1zanatOUU0fGR1pbYyPlalpfOum39XVb1Z7+R5rvvbss9Ivk9jdi+6YBV2w3I3xIlu5fFTJoDVl95MQP2ETH+hmzI9jfYPvkOyW7O3G/JQ4HNRQ6DisgZmjKbNxT7dieZDAKwSR7Crwhw3wbANrpCcSFbIIYGsHkpECl2LAvoPot/+BxRi6RA2CMAAAAASUVORK5CYII=" type="image/x-icon">
+</head>
+<body style="text-align:center; margin-top:50px;">
 
+
+<div id="nee">
+    <h2>Calculator</h2>
+<input type="text" id="display" placeholder="0" readonly><br><br>
+
+<button onclick="append('1')">1</button>
+<button onclick="append('2')">2</button>
+<button onclick="append('3')">3</button>
+<button onclick="append('+')">+</button><br>
+
+<button onclick="append('4')">4</button>
+<button onclick="append('5')">5</button>
+<button onclick="append('6')">6</button>
+<button onclick="append('-')">-</button><br>
+
+<button onclick="append('7')">7</button>
+<button onclick="append('8')">8</button>
+<button onclick="append('9')">9</button>
+<button onclick="append('*')">×</button><br>
+
+<button onclick="append('0')">0</button>
+<button onclick="append('.')">.</button>
+<button onclick="calculate()">=</button>
+<button onclick="append('/')">÷</button><br><br>
+
+<button onclick="clearDisplay()"id="n">Clear</button>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
