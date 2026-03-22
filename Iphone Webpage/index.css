@@ -1,0 +1,183 @@
+@import url(swipper.css);
+
+* {
+    padding: 0;
+    margin: 2px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+}
+
+.list {
+    list-style: none;
+}
+
+.top {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin: 0;
+    background-color: rgb(252, 253, 253);
+    
+
+}
+
+.top .list {
+    padding: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.in {
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+
+}
+
+.p {
+    justify-content: center;
+    display: flex;
+    background-color: rgb(244, 247, 248);
+    font-size: 12px;
+    height: 35px;
+
+
+}
+
+.p p {
+    padding-top: 6px;
+
+}
+
+.i h1{
+    font-size: 60px;
+    margin-left: 9%;
+    margin-top: 30px;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 5px;
+
+}
+
+.img div {
+    padding: 3px;
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.img div img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+
+
+}
+
+.img div img:hover {
+    cursor: pointer;
+}
+
+.img div h6 {
+    text-align: center;
+}
+
+.big h1{
+    background-color: rgb(244, 247, 248);
+    margin-top: 60px;
+    display: block;
+    height: 100vhx;
+    width: 100%;
+    font-size: 60px;
+    padding-left: 9%;
+    padding-top: 60px;
+    padding-bottom: 40px;
+
+}
+
+
+
+#s .myswipper {
+    height: 100%;
+    width: 100%;
+    margin-left: 0;
+    object-fit: cover;
+    display: block;
+
+}
+.ii h1{
+    font-size: 60px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    margin-left: 0;
+ 
+}
+.bi{
+    height: 400px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+    
+    
+     
+}
+.bi img{
+    margin-top: 30px;
+    height: 93%;
+    width: 55%;
+    object-fit: cover;
+    
+    padding: 30px;
+    border-radius: 30px;
+    
+   
+}
+.bi img:hover{
+
+    cursor: pointer;
+    transform: scale(1.03);
+    transition:transform 0.3s ease;
+}
+.last{
+    background-color: rgb(244, 247, 248);
+    display: flex;
+    font-size: 12px;
+    justify-content: center;
+    gap: 100px;
+  
+}
+.la{
+    
+    height: 400px;
+    width: 70%;
+    justify-content: space-around;
+    display: flex;
+
+
+}
+  
+.last .l{
+    font-weight: bold;
+}
+.last li{
+ list-style: none;
+ line-height: 20px;
+}
+
+.a,.b,.c,.d,.f{
+
+    padding-top: 20px;
+}
