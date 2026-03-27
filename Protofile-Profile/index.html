@@ -1,74 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Protofile</title>
-    <link rel="shortcut icon" href="https://img.freepik.com/premium-vector/avatar-profile-icon-flat-style-female-user-profile-vector-illustration-isolated-background-women-profile-sign-business-concept_157943-38866.jpg" type="image/x-icon">
-     <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon"
+        href="https://img.freepik.com/premium-vector/avatar-profile-icon-flat-style-female-user-profile-vector-illustration-isolated-background-women-profile-sign-business-concept_157943-38866.jpg"
+        type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
     <header>
         <div class="d">
-    <h1>KIRUTHIKA A</h1>
-    <p>Java Full Stack Developer</p>
-    </div>
+            <h1>KIRUTHIKA A</h1>
+
+            <p>Java Full Stack Developer</p>
+        </div>
     </header>
     <section>
         <div class="dd">
-        <h2>About me</h2>
-        <p>I am a Java Full Stack Developer fresher with skills in HTML, CSS, JavaScript, and Java. I am eager to learn and start my career in software development.</p>
-        </div>    
+            <h2>PROFILE</h2>
+            <p>Pursuing B.Tech in Information Technology with strong knowledge of programming and software development
+                concepts. Aspiring Software Engineer with skills in problem-solving, coding, and modern technologies.
+            </p>
+        </div>
     </section>
     <section>
         <div class="dd">
-        <h2>Skills</h2>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>Java</li>
-            <li>SQL</li>
-        </ul>
+            <h2>SKILLS</h2>
+            <ul>
+                <li>Frontend - HTML, CSS, JavaScript, React.js, Bootstrap</li>
+                <li>Backend - Java, Spring Boot, Hibernate</li>
+                <li>Database - MySQL</li>
+                <li>Concepts - Data Structures and Algorithms(DSA)</li>
+            </ul>
         </div>
     </section>
 
     <section>
         <div class="ds">
-        <h2>Projects</h2>
-        <div class="no">
-        <h3>Event Management Project</h3>
-        <p>Created an Event Management System to manage events and user registrations. Used HTML, CSS, JavaScript, and Java. Improved event handling and user interactio</p>
-        </div>
+            <h2>PROJECTS</h2>
+            <div class="no">
+                <h3>Event Management Project</h3>
+                <p>Created an Event Management System to manage events and user registrations. Used HTML, CSS,
+                    JavaScript, and Java. Improved event handling and user interactio</p>
+            </div>
 
-        <div class="no">
-            <h3>Protofile Website</h3>
-            <p>Created a portfolio website to display my projects and skills. Used HTML, CSS, and JavaScript. Designed it to be simple and responsive.</p>
-        </div>
+            <div class="no">
+                <h3>Protofile Website</h3>
+                <p>Created a portfolio website to display my projects and skills. Used HTML, CSS, and JavaScript.
+                    Designed it to be simple and responsive.</p>
+            </div>
+            <div class="no">
+                <h3>Calculator</h3>
+                <p>Built a responsive web calculator using HTML, CSS, and JavaScript.
+Implemented basic arithmetic operations with a clean UI and real-time input handling.</p>
+            </div>
         </div>
     </section>
-    
-    <section>
-        <h2>Contact</h2>
-        <input type="text" name="" id="n"placeholder="Your Name">
-        <input type="email" name="" id="nn"placeholder="Your Email">
-        <textarea name="" id=""placeholder="Message"></textarea>
+
+    <section class="dd">
+        <h2>CONTACT</h2>
+        <input type="text" id="n" placeholder="Your Name">
+        <input type="email" name=""placeholder="Your Email" id="">
+        <textarea name="" id="" placeholder="Message"></textarea>
         <button onclick="send()">Send</button>
     </section>
 
     <script>
-        var n=document.getElementById('n')
-        var nn=document.getElementById('nn')
-        function send(){
-            if(n.value === "" || nn.value === ""){
+        var n = document.getElementById('n')
+        var nn = document.getElementById('nn')
+        function send() {
+            if (n.value === "" || nn.value === "") {
                 alert("Empty")
             }
-            else{
+            else {
                 alert("Message Sent Successfully 😊")
             }
-            
+
         }
+
     </script>
 
 </body>
+
 </html>
