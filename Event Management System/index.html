@@ -1,1 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>EventFlow | Modern Event Management</title>
+    <!-- Google Fonts & Font Awesome -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- Navigation Bar (shared across pages) -->
+    <nav class="glass-nav">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-calendar-alt"></i> 
+                <span>EventFlow</span>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button id="darkModeToggle" class="dark-toggle" aria-label="Dark mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="menu-icon" id="menuIcon">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
 
+    <main class="page-container">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <span class="badge">✨ Premier Campus Experience</span>
+                <h1>St. Xavier's <span class="gradient-text">College of Engineering</span></h1>
+                <p>Where ideas ignite, talents shine, and memories last forever. Join the most awaited events of the year and shape your journey.</p>
+                <a href="events.html" class="btn-primary pulse-btn">Explore Events <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-card glass">
+                    <i class="fas fa-users"></i>
+                    <h3>5000+</h3>
+                    <p>Participants</p>
+                </div>
+                <div class="stat-card glass">
+                    <i class="fas fa-calendar-week"></i>
+                    <h3>12+</h3>
+                    <p>Annual Events</p>
+                </div>
+                <div class="stat-card glass">
+                    <i class="fas fa-trophy"></i>
+                    <h3>25+</h3>
+                    <p>Awards</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Upcoming Events Section (cards) -->
+        <section class="events-preview">
+            <div class="section-header">
+                <h2>🔥 Upcoming Highlights</h2>
+                <p>Don't miss out — secure your spot now</p>
+            </div>
+            <div class="events-grid" id="upcomingEventsGrid">
+                <!-- dynamic JS injected but also fallback -->
+            </div>
+            <div class="text-center mt-5">
+                <a href="events.html" class="btn-outline">View All Events <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="glass-footer">
+        <p>© 2025 EventFlow — Powered by passion & innovation | St. Xavier's College</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

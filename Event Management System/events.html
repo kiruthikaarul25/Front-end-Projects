@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Events | EventFlow</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav class="glass-nav">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-calendar-alt"></i> 
+                <span>EventFlow</span>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="events.html" class="active">Events</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button id="darkModeToggle" class="dark-toggle" aria-label="Dark mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="menu-icon" id="menuIcon">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="page-container">
+        <div class="section-header">
+            <h2><i class="fas fa-calendar-alt"></i> All Events</h2>
+            <p>Discover and register for amazing experiences</p>
+        </div>
+        
+        <div class="search-bar">
+            <input type="text" id="searchEvents" placeholder="🔍 Search events by name, description, or category...">
+        </div>
+        
+        <div id="eventsGrid" class="events-grid">
+            <!-- Events will be loaded dynamically -->
+        </div>
+    </main>
+
+    <footer class="glass-footer">
+        <p>© 2025 EventFlow — Powered by passion & innovation | St. Xavier's College</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
